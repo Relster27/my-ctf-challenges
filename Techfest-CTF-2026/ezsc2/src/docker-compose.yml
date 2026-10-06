@@ -1,0 +1,9 @@
+services:
+  ezsc2-img:
+    image: ezsc2-img
+    build: .
+    restart: always
+    environment:
+      - TERM=xterm
+    ports:
+      - "4919:4919"
