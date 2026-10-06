@@ -1,0 +1,11 @@
+services:
+  badring:
+    build: .
+    image: badring
+    restart: always
+    cpus: 1.0
+    mem_limit: 2g
+    ports:
+      - "4919:4919"
+    environment:
+      - TERM=xterm

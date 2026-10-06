@@ -1,0 +1,36 @@
+name: "bad ring"
+category: Binary Exploitation
+description: |-
+    Seharusnya gak sesusah yang di qualification. Good luck lads!
+
+    Author: relster
+
+##### TIDAK USAH DIGANTI
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 20
+    minimum: 100
+    require_ai_source: false
+    require_solver: true
+##### TIDAK USAH DIGANTI
+
+connection_info: nc 144.91.64.93 4919
+
+flags:
+    - IFEST26{1e5de5eafb4a077cd8dc956f4ccfa54ba24fdc2792a2d1c72eae3e78d94c6cf6}
+
+tags:
+    - "Hard"
+    - "Kernel"
+
+files:
+    - dist/dist.tar.gz
+
+state: hidden
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
