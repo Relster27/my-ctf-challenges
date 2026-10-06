@@ -1,0 +1,30 @@
+name: "Double Trouble"
+category: Binary Exploitation
+description: |-
+  Baby heap dulu sebelum heap yang gak baby ツ
+
+  Author: relster
+
+connection_info: nc 103.185.52.198 4920
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - PETIR{b4by_h34p_1nn17?_g00d_luck_0n_n3x7_ch4113n935_f31145}
+
+tags:
+  - easy
+
+files:
+  - dist/dist.zip
+
+state: visible
+
+version: "0.1"

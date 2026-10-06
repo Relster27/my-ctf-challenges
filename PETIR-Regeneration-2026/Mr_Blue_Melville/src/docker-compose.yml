@@ -1,0 +1,11 @@
+services:
+  mr-blue-melville:
+    image: mr-blue-melville
+    build: .
+    restart: always
+    mem_limit: 128m
+    cpus: 0.25
+    environment:
+      - TERM=xterm
+    ports:
+      - "4919:3134"

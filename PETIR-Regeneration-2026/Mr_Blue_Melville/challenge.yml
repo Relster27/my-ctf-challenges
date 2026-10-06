@@ -1,0 +1,31 @@
+name: "Mr. Blue Melville"
+category: Binary Exploitation
+description: |-
+  Kata orang-orang kalo pake arch bakal nambah huzz, 
+  tutor cara install arch linuk ada di flag wkwkwk
+
+  Author: relster
+
+connection_info: nc 103.185.52.198 4919
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 25
+    minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - PETIR{https://wiki.archlinux.org/title/Installation_guide}
+
+tags:
+  - easy
+
+files:
+  - dist/dist.zip
+
+state: visible
+
+version: "0.1"
